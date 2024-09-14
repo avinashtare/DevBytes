@@ -1,0 +1,7 @@
+.nav--bar .logo .links li {
+  margin: 0 1rem;
+}
+
+.nav--bar .logo .links li a {
+  @apply text-nav_links;
+}
