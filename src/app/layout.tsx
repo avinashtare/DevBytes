@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 import { ThemeProvider } from "@/components/theme-provider";
 import Nav from "@/components/Nav";
+import Sidebar from "@/components/Sidebar";
 
 export const metadata: Metadata = {
   title: "DevBytes",
@@ -25,7 +26,10 @@ export default function RootLayout({
           disableTransitionOnChange
         >
           <Nav />
-          {children}
+          <div className="container m-auto flex mt-16 py-6">
+            <Sidebar />
+            {children}
+          </div>
         </ThemeProvider>
       </body>
     </html>
