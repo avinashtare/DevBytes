@@ -58,6 +58,9 @@ const config: Config = {
         nav_links: {
           DEFAULT: "var(--nav-links)",
         },
+        somth_gray: {
+          DEFAULT: "var(--smoth-gray)",
+        },
       },
     },
   },

@@ -65,6 +65,7 @@ body {
     --radius: 0.5rem;
     /* defind by user */
     --nav-links: #221818d0;
+    --smoth-gray: #cfcfcf;
   }
   .dark {
     --background: 240 10% 3.9%;
@@ -93,6 +94,7 @@ body {
     --chart-5: 340 75% 55%;
     /* defind by user */
     --nav-links: #a7a7a7;
+    --smoth-gray: rgb(56, 56, 60);
   }
 }
 
